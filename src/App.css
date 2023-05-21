@@ -1,0 +1,104 @@
+.app {
+   
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.app.bg1 {
+    background-image: url(/Images/bg1.jpg);
+}
+
+.app.bg2 {
+    background-image: url(/Images/bg2.jpg);
+}
+
+.app.bg3 {
+    background-image: url(/Images/bg3.jpg);
+}
+
+.app.bg4 {
+    background-image: url(/Images/bg4.jpg);
+}
+
+
+
+.app__container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    width: min(100%, 300px);
+    padding: 0 10px;
+}
+
+.motivational_phrase{
+    position: relative;
+    top: 88px;
+    font-size: 30px;
+    text-align: center;
+    background: #3913ab;
+    background: radial-gradient(#eff1ff, #2660cb);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+ 
+}
+
+.quoteBox__btn {
+border: 0;
+background-image: linear-gradient(150deg,#9500ff,#09f,#00DDFF);
+border-radius: 8px;
+color: #fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+height: 45px;
+
+
+}
+
+.quoteBox__btn span {
+    background-color:black;
+    padding: 7px 20px;
+    border-radius: 6px;
+    transition: .3s;
+    color: aquamarine;
+    font-family: monospace;
+
+}
+
+.quoteBox__btn:hover span{
+    background: none;
+}
+
+.quoteBox__btn:active {
+    transform: scale(0.9);
+}
+
+.phrase {
+        
+        height: 92px;
+        width: 363px;
+        border-radius: 6px;
+        padding: 5px;
+        text-align: center;
+        background: radial-gradient(blue, transparent);
+        color: honeydew;
+        font-family: cursive;
+    }
+  
+.author{
+    display: flex;
+    gap: 10px;
+    color: maroon;
+    padding: 38px 8px;
+    font-family: monospace;
+}
+
+   
