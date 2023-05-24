@@ -30,8 +30,8 @@
     grid-template-rows: auto 1fr auto;
     align-items: center;
     justify-items: center;
-    width: min(100%, 300px);
-    padding: 0 10px;
+    width: min(100%, 397px);
+    padding: 0 1px;
 }
 
 .motivational_phrase{
@@ -59,6 +59,8 @@ padding: 4px;
 cursor: pointer;
 transition: .3s;
 height: 45px;
+position: relative;
+top: 20px;
 
 
 }
@@ -83,14 +85,15 @@ height: 45px;
 
 .phrase {
         
-        height: 92px;
-        width: 363px;
-        border-radius: 6px;
-        padding: 5px;
+        height: 167px;
+        border-radius: 49px;
+        padding: 31px;
         text-align: center;
-        background: radial-gradient(blue, transparent);
+        background: radial-gradient(darkblue, transparent);
         color: honeydew;
         font-family: cursive;
+        position: relative;
+        top: 20px;
     }
   
 .author{
@@ -99,6 +102,14 @@ height: 45px;
     color: maroon;
     padding: 38px 8px;
     font-family: monospace;
+}
+
+.creator {
+    color: firebrick;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: 148px;
 }
 
    

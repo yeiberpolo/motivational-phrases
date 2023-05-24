@@ -22,9 +22,9 @@ function App() {
       <h1 className='motivational_phrase'>MOTIVATIONAL PHRASES</h1>
       
 
-      <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />
+      <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} author={quote.author} />
       <footer>
-        <h3 className='author'>Author: {quote.author}</h3>
+        {/* <h3 className='author'>Author: {quote.author}</h3> */}
         
       </footer>
     </section>
